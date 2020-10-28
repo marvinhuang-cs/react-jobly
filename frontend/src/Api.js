@@ -18,13 +18,13 @@ class JoblyApi {
 
         if (verb === "get") {
           query = axios.get(
-            `${BASE_URL}${endpoint}`, { params: { _token, ...params } });
+            `${BASE_URL}/${endpoint}`, { params: { _token, ...params } });
         } else if (verb === "post") {
           query = axios.post(
-            `${BASE_URL}${endpoint}`, { _token, ...params });
+            `${BASE_URL}/${endpoint}`, { _token, ...params });
         } else if (verb === "patch") {
           query = axios.patch(
-            `${BASE_URL}${endpoint}`, { _token, ...params });
+            `${BASE_URL}/${endpoint}`, { _token, ...params });
         }
 
     
