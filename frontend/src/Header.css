@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10)
+
+  }
+.header__logo {
+    display: flex;
+    font-size: x-large;
+    margin: 10px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+.header__option {
+    margin-right: 2rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: initial;
+  }
+
+
+@media (max-width: 600px) {
+    .header__nav {
+    flex-direction: column;
+    }
+  }

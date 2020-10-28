@@ -1,0 +1,32 @@
+.company__card {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: initial;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: left;
+}
+
+.company__name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    font-size: medium;
+}
+
+.company__description {
+    color: black;
+}
+
+.company__logo {
+    height: 60px;
+    width: 60px;
+}

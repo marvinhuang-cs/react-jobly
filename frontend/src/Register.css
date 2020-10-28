@@ -1,0 +1,13 @@
+.form__group {
+    margin: 10px;
+}
+
+.form__button {
+    margin: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}

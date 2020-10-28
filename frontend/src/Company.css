@@ -1,0 +1,9 @@
+.body__container {
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.company__container {
+    background-color: whitesmoke;
+    margin: auto;
+    padding-top: 20px;
+}

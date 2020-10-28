@@ -1,0 +1,15 @@
+.home {
+    height: calc(100vh - 75px);
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.home__container {
+    width: 100%;
+    text-align: center!important;
+}
+
+.body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}

@@ -1,0 +1,22 @@
+.search__container {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    width: 75%;
+    margin: auto;
+}
+
+.search__form {
+    display: flex;
+}
+
+.search__term {
+    width: 100%;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search__button {
+    border-radius: 0 5px 5px 0;
+}
