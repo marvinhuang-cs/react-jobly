@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./CompanyCard.css";
 import defaultLogo from "./default-logo.png";
 
+//displays a company's information within a card
 function CompanyCard({ item = {}, apply = () => null, idx }) {
   if (item.handle) {
     const { name, description, logo_url, handle } = item;

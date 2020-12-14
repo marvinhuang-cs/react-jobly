@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import './Header.css'
 import UserContext from "./UserContext"
 
+//header navbar that links to home, companies, jobs, profile, login/logout
 function Header({handleLogOut}) {
     const { currentUser } = useContext(UserContext);
     function loggedInNav() {

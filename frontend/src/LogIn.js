@@ -4,6 +4,7 @@ import './LogIn.css'
 import JoblyApi from './Api'
 import Alert from './Alert'
 
+//login page with verification
 function LogIn({setToken}) {
     const history = useHistory();
     const [loginInfo, setLoginInfo] = useState({

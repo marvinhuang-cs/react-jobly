@@ -4,6 +4,7 @@ import CardList from "./CardList";
 import './Jobs.css'
 import Search from './Search'
 
+//gets list of jobs within API and displays it along with a search bar
 function Jobs() {
     const [jobs, setJobs] = useState([]);
 

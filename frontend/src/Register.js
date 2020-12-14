@@ -4,6 +4,7 @@ import JoblyApi from './Api'
 import './Register.css'
 import Alert from './Alert'
 
+//registration for new users, sets the token after registering
 function Register({setToken}) {
     const history = useHistory();
     const [loginInfo, setLoginInfo] = useState({

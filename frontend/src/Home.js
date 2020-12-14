@@ -3,6 +3,7 @@ import './Home.css'
 import UserContext from "./UserContext"
 import { Link } from "react-router-dom"
 
+//homepage that welcomes user and prompts log in
 function Home() {
     const { currentUser } = useContext(UserContext);
     return (

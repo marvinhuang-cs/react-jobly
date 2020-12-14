@@ -5,6 +5,7 @@ import CardList from './CardList'
 import './Company.css'
 import UserContext from "./UserContext";
 
+//individual company information with apply button, passes data down to card list
 function Company() {
     const { handle } = useParams();
     const { currentUser } = useContext(UserContext);

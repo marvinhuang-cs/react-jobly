@@ -1,6 +1,7 @@
 import React from 'react'
 import './JobCard.css'
 
+//displays job information within a card
 function JobCard({ item = {}, handleApply }) {
     const {title, salary, equity} = item;
     return (

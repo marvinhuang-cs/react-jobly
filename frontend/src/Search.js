@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Search.css'
 
+//search bar component, allows for job/company search
 function Search({handleSearch}) {
     const [search, setSearch] = useState("");
 

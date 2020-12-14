@@ -4,6 +4,7 @@ import CardList from "./CardList";
 import Search from './Search'
 import './Companies.css'
 
+//gets companies from API and passes it down to cardlist to display along with search bar
 function Companies() {
     const [companies, setCompanies] = useState([]);
 

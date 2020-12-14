@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import "./CardList.css"
 
+//card list containing cards with job or company information
 function CardList({ cards = [], apply = () => null }) {
   return cards.length ? (
     <div className="card__list">

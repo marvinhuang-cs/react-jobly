@@ -3,6 +3,7 @@ import JoblyApi from './Api'
 import UserContext from './UserContext'
 import Alert from './Alert'
 
+//shows current user's profile information and handles changes
 function Profile() {
     const { currentUser, setCurrentUser } = useContext(UserContext);
 
